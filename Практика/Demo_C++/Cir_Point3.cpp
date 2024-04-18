@@ -1,6 +1,7 @@
 #include <iostream>
 #include <math.h>
 
+//
 using namespace std;
 
 class Point
@@ -66,27 +67,27 @@ public:
 int main()
 {
     double x,y;
-    cout << "Центр окружности" << endl;
+    cout << "         ужн   " << endl;
     cin >> x;
     cin >> y;
     Point p1(x,y);
     Point p0;
-    cout << "Точка на дуге" << endl;
+    cout << "  чка     уге" << endl;
     cin >> x;
     cin >> y;
     Point p2(x,y);
 
-    cout << "Окружности" << endl;
+    cout << "   ужн   " << endl;
     Circle cir1(p1,p2);
     double S1 = cir1.Sq();
 
     Circle cir2(p0,p2);
     double S2 = cir2.Sq();
-    cout << "Площадь окружности 1" << S1 << endl;
-    cout << "Площадь окружности 2" << S2 << endl;
+    cout << "   щад     ужн    1" << S1 << endl;
+    cout << "   щад     ужн    2" << S2 << endl;
 
     double z;
-    cout << "Добавьте две z для трехмерных точек" << endl;
+    cout << "            z       хме     чек" << endl;
     cin >> z;
     Point3D p3D(x,y,z);
     cin >> z;

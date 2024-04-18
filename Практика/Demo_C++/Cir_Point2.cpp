@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//Этот код входит в лекции курса "Технологии Программирования"
+
 struct Point
 {
     double x;
